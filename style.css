@@ -13,7 +13,7 @@
 .head-block__img {
   width: 100%;
 }
-.head-block .more_inf {
+.head-block__link {
   font-family: fantasy, cursive;
 }
 
