@@ -43,10 +43,10 @@ ul {
   list-style: none;
 }
 input,
-button{
+.main-block__list-button {
   outline: none;
 }
-button {
+.main-block__list-button {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +55,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.main-block__list-button:hover {
   color: #3a3A3a;
 }
 /* Heading */
