@@ -94,7 +94,7 @@
 .main-block__input#new-task {
   width: 318px;
 }
-p > .main-block__list-button:hover {
+.adding-item-block > .main-block__list-button:hover {
   color: #0FC57C;
 }
 
