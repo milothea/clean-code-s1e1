@@ -103,7 +103,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,12 +126,12 @@
 .main-block__list-element > .main-block__list-button.delete:hover {
   color: #CF2323;
 }
-.main-block__list-button.delete img {
+.main-block__list-button.delete .list-button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.main-block__list-button.delete img:hover {
+.main-block__list-button.delete .list-button__img:hover {
   transform: rotateZ(0);
 }
 
