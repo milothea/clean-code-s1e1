@@ -39,7 +39,8 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.main-block__list-element, h3 {
+.main-block__list-element,
+.subheading {
   list-style: none;
 }
 input,
@@ -59,7 +60,7 @@ input,
   color: #3a3A3a;
 }
 /* Heading */
-h3,
+.subheading,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
