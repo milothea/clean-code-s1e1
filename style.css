@@ -94,7 +94,7 @@
 .main-block__input#new-task {
   width: 318px;
 }
-p > button:hover {
+p > .main-block__list-button:hover {
   color: #0FC57C;
 }
 
@@ -124,15 +124,15 @@ p > button:hover {
 .main-block__list-element >  .main-block__input[type="text"] {
   width: 226px;
 }
-.main-block__list-element > button.delete:hover {
+.main-block__list-element > .main-block__list-button.delete:hover {
   color: #CF2323;
 }
-button.delete img {
+.main-block__list-button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.main-block__list-button.delete img:hover {
   transform: rotateZ(0);
 }
 
